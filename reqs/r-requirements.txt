@@ -1,0 +1,3 @@
+tidyverse 2.0.0
+taylor 3.0.0
+extrafont 0.19
