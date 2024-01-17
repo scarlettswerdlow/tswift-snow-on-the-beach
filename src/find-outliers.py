@@ -9,7 +9,7 @@ import numpy as np
 
 ALBUMS = [
     'Taylor Swift', 'Fearless', 'Speak Now', 'Red', '1989', 'reputation',
-    'folklore', 'evermore', 'Midnights'
+    'Lover', 'folklore', 'evermore', 'Midnights'
 ]
 
 TO_TEST = {
