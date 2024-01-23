@@ -55,7 +55,7 @@ p <- tracks_analytics_df %>%
     aes(label = str_wrap(track_name, width = 12)),
     color = 'black',
     family = 'Andale Mono',
-    size = 6,
+    size = 3,
     vjust = 'bottom',
     nudge_y = 0.025
   ) +
@@ -68,7 +68,7 @@ p <- tracks_analytics_df %>%
   theme_minimal() +
   theme(
     legend.position = 'none',
-    text = element_text(family = 'Andale Mono', size = 25),
+    text = element_text(family = 'Andale Mono', size = 12),
     plot.title = element_text(margin = margin(10, 0, 10, 0)),
     axis.title.x = element_text(margin = margin(10, 0, 10, 0)),
     axis.title.y = element_text(margin = margin(0, 10, 0, 10))
@@ -79,8 +79,8 @@ ggsave(
   plot = p,
   filename = plot_fp, 
   device = 'jpeg',
-  width = 18,
-  height = 12,
+  width = 9,
+  height = 6,
   units = 'in',
   dpi = 600
 )

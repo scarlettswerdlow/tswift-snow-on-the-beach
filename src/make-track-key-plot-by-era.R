@@ -105,9 +105,7 @@ ggsave(
   filename = plot_fp, 
   device = 'jpeg',
   width = 18,
-  height = 12,
+  height = 8,
   units = 'in',
   dpi = 600
 )
-
-# track_key_outliers_l <- c("B/A♭m", "F♯/E♭m", "C♯/B♭m", "A♭/Fm", "E♭/Cm")

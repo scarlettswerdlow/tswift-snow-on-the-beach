@@ -38,18 +38,18 @@ p <- tracks_analytics_df %>%
       color = album_name
     )
   ) +
-  geom_point(aes(alpha = alpha), size = 20) +
+  geom_point(aes(alpha = alpha), size = 10) +
   geom_point(
     data = function(x) subset(x, track_valence_outlier),
     shape = 1,
-    size = 20
+    size = 10
   ) +
   geom_text(
     data = function(x) subset(x, track_valence_outlier),
     aes(label = str_wrap(track_name, width = 12)),
     color = 'black',
     family = 'Andale Mono',
-    size = 6,
+    size = 3,
     vjust = 'bottom',
     nudge_y = 0.045
   ) +
@@ -62,7 +62,7 @@ p <- tracks_analytics_df %>%
   guides(color = 'none', fill = 'none', alpha = 'none') +
   theme_minimal() +
   theme(
-    text = element_text(family = 'Andale Mono', size = 25),
+    text = element_text(family = 'Andale Mono', size = 12),
     plot.title = element_text(margin = margin(10, 0, 10, 0)),
     axis.title.x = element_text(margin = margin(10, 0, 10, 0)),
     axis.title.y = element_text(margin = margin(0, 10, 0, 10))
@@ -73,8 +73,8 @@ ggsave(
   plot = p,
   filename = plot_fp, 
   device = 'jpeg',
-  width = 18,
-  height = 12,
+  width = 9,
+  height = 6,
   units = 'in',
   dpi = 600
 )

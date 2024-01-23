@@ -32,10 +32,7 @@ Like a violin plot, a point plot highlights outliers. Rather than emphasize the 
 
 Both a violin plot and point plot are suitable choices for visualizing outliers. Which one you choose depends on the story you are trying to tell. For example, here is the same data on track valence (positivity) visualized two different ways:
 
-<p float="left">
-  <img src="/assets/track-valence-outliers-violin.jpeg" width="400" />
-  <img src="/assets/track-valence-outliers-dot.jpeg" width="400" /> 
-</p>
+![Song Valence - Violin](/assets/track-valence-outliers-violin.jpeg) ![Song Valence - Point](/assets/track-valence-outliers-dot.jpeg)
 
 Personally, I prefer the violin plot in this case. It captures the overall outliers, and it emphasizes those songs are also often outliers on their albums (**Picture to Burn**, **Hey Stephen**, **Shake It Off**, and **Closure**). Maybe, though, the point plot is better at communicating that **1989** and **Lover** are relatively happy and cheerful albums, whereas **Midnights** is relatively sadder.
 
