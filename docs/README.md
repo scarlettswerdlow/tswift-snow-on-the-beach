@@ -46,9 +46,10 @@ A lollipop plot is useful for focusing on the difference between a given value a
 
 A circular bar plot is not a common way to visualize outliers. In fact, circular plots are almost always bad: they tend to be unnecessarily complicated and difficult to interpret.
 
+![Song Key](/assets/track-key-outliers-all-data.jpeg){: width="450" }{: style="float: right"}
+
 Circular plots are only appropriate if the underlying data is circular: if the data has no start or end and loops back on itself. Examples of circular data include the time of day as shown on a clock and the directions on a compass. It also includes musical keys as represented by the Circle of Fifths, a way of organizing the 12 pitches as a sequence such that the most closely related key signatures are next to one another. That is why a circular bar plot is the perfect way to explore outlier keys in Taylor's songs.
 
-![Song Key](/assets/track-key-outliers-all-data.jpeg){: width="600" }{: style="float: right"}
 Overall, Taylor's music is mostly in C, G, and D which (along with A) are the most common keys in pop music. She also has a strong showing in E, which is relatively convenient for guitar (but not piano). Her outliers range from B to E♭. Broken down by era, we see the outliers are relatively clustered on **Fearless**, **folklore**, and **evermore**. Also, **Speak Now** and **Red** stand out for their use of E (more guitar?), and **reputation** and **Lover** are more consistely pop at least in terms of key.
 
 ![Song Key by Era](/assets/track-key-outliers-by-era.jpeg){: width="1000" }
