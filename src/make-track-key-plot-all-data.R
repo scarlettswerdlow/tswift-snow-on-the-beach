@@ -83,19 +83,21 @@ p <- plot_df %>%
     expand = c(0, 0),
     breaks = c(0, 5, 10, 15, 20, 25, 30)
   ) + 
-  scale_fill_manual("Mode", values = c("#B8396B", "#76BAE0")) +
+  scale_fill_manual(values = c("#B8396B", "#76BAE0")) +
   ggtitle('Taylor Swift Song Keys') +
   xlab('') +
   ylab('') +
   theme_minimal() +
   theme(
     text = element_text(family = 'Andale Mono', size = 25),
-    axis.text.x = element_text(family = 'Arial Unicode MS'),
+    axis.text.x = element_text(family = 'Arial Unicode MS', size = 12),
     axis.text.y = element_blank(),
     axis.ticks.y = element_blank(),
     plot.title = element_text(margin = margin(10, 0, 10, 0)),
     axis.title.x = element_text(margin = margin(10, 0, 10, 0)),
-    axis.title.y = element_text(margin = margin(0, 10, 0, 10))
+    axis.title.y = element_text(margin = margin(0, 10, 0, 10)),
+    legend.title = element_blank(),
+    legend.position = "bottom"
   )
 
 extrafont::loadfonts()
