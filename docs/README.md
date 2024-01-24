@@ -44,9 +44,9 @@ A lollipop plot is useful for focusing on the difference between a given value a
 
 ## Circular Bar Plot
 
-A circular bar plot is not a common way to visualize outliers. In fact, circular plots are almost always bad: they tend to be unnecessarily complicated and difficult to interpret.
-
 ![Song Key](/assets/track-key-outliers-all-data.jpeg){: width="450" }{: style="float: right"}
+
+A circular bar plot is not a common way to visualize outliers. In fact, circular plots are almost always bad: they tend to be unnecessarily complicated and difficult to interpret.
 
 Circular plots are only appropriate if the underlying data is circular: if the data has no start or end and loops back on itself. Examples of circular data include the time of day as shown on a clock and the directions on a compass. It also includes musical keys as represented by the Circle of Fifths, a way of organizing the 12 pitches as a sequence such that the most closely related key signatures are next to one another. That is why a circular bar plot is the perfect way to explore outlier keys in Taylor's songs.
 
