@@ -32,7 +32,7 @@ Like a violin plot, a point plot highlights outliers. Rather than emphasize the 
 
 Both a violin plot and point plot are suitable choices for visualizing outliers. Which one you choose depends on the story you are trying to tell. For example, here is the same data on track valence (positivity) visualized two different ways:
 
-![Song Valence - Violin](/assets/track-valence-outliers-violin.jpeg){: width="500" } ![Song Valence - Point](/assets/track-valence-outliers-dot.jpeg){: width="500" }
+![Song Valence - Violin](/assets/track-valence-outliers-violin.jpeg){: width="475" } ![Song Valence - Point](/assets/track-valence-outliers-dot.jpeg){: width="475" }
 
 Personally, I prefer the violin plot in this case. It captures the overall outliers, and it emphasizes those songs are also often outliers on their albums (**Picture to Burn**, **Hey Stephen**, **Shake It Off**, and **Closure**). Maybe, though, the point plot is better at communicating that **1989** and **Lover** are relatively happy and cheerful albums, whereas **Midnights** is relatively sadder.
 
@@ -50,7 +50,7 @@ A circular bar plot is not a common way to visualize outliers. In fact, circular
 
 Circular plots are only appropriate if the underlying data is circular: if the data has no start or end and loops back on itself. Examples of circular data include the time of day as shown on a clock and the directions on a compass. It also includes musical keys as represented by the Circle of Fifths, a way of organizing the 12 pitches as a sequence such that the most closely related key signatures are next to one another. That is why a circular bar plot is the perfect way to explore outlier keys in Taylor's songs.
 
-I had not heard of the Circle of Fifths before this weekend. My husband, who is a musician, suggested it when I was struggling to visualize Taylor's song keys in a way that told any story at all -- let alone one about anomalies. (Let this be a reminder that a data scientist should always consult subject matter experts.)
+I had not heard of the Circle of Fifths before this weekend. My husband, who is a musician, suggested it when I was struggling to visualize Taylor's song keys in a way that told any story at all -- let alone one about anomalies. (Let this be a reminder that a data scientist should always consult subject matter experts. Your data science expertise will only get you so far, and may lead you in the wrong direction.)
 
 Overall, Taylor's music is mostly in C, G, and D which (along with A) are the most common keys in pop music. She also has a strong showing in E, which is relatively convenient for guitar (but not piano). Her outliers range from B to E♭. Broken down by era, we see the outliers are relatively clustered on **Fearless**, **folklore**, and **evermore**. Also, **Speak Now** and **Red** stand out for their use of E (more guitar?), and **reputation** and **Lover** are more consistely pop at least in terms of key.
 
