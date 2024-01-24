@@ -20,6 +20,8 @@ While most of the plots I show are broken down by era, I identify outliers based
 
 ![Song Length](/assets/track-length-outliers.jpeg)
 
+<img src="https://github.com/scarlettswerdlow/tswift-snow-on-the-beach/blob/main/docs/assets/track-length-outliers.jpeg" width="400">
+
 A violin plot makes it easy to spot outliers (**Dear John** clocks in at 6 minutes 43 seconds), while also emphasizing the entire distribution of data. In this case, by plotting over a category, we see when outliers are clustered in a certain category (four of Taylor's six unusually long songs are on **Speak Now**), and we can pick out categories with unique distributions (unlike other albums, all songs on **reputation** are about the same length).
 
 ## Point Plots
