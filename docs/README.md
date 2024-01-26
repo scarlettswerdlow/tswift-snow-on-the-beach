@@ -1,5 +1,7 @@
 > Like snow on the beach, weird but fuckin' beautiful
 
+[Github repo](https://github.com/scarlettswerdlow/tswift-snow-on-the-beach)
+
 In this morsel of Taylor Swift data science, I demonstrate different ways to visualize outliers in a dataset. While a box plot is the go-to plot for visualizing outliers, I find it requires much more explanation and is therefore less intuitive than the plots I show here.
 
 ## The Data
